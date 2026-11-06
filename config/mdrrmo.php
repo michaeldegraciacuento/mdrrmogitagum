@@ -14,8 +14,8 @@ return [
     'name' => 'MDRRMO Gitagum',
     'full_name' => 'Municipal Disaster Risk Reduction and Management Office of Gitagum',
     'tagline' => 'Handa. Ligtas. Matatag.',
-    'description' => 'Official website of the Municipal Disaster Risk Reduction and Management Office (MDRRMO) of Gitagum, Misamis Oriental. Emergency hotlines, disaster preparedness tips, advisories, and community safety information.',
-    'keywords' => 'MDRRMO Gitagum, Gitagum Misamis Oriental, disaster risk reduction, emergency hotline Gitagum, rescue Gitagum, disaster preparedness, typhoon advisory, flood, earthquake, Northern Mindanao',
+    'description' => 'Official website of the Municipal Disaster Risk Reduction and Management Office (MDRRMO) of Gitagum, Misamis Oriental. Emergency hotlines, 7-day weather forecast, disaster preparedness tips, advisories, and community safety information.',
+    'keywords' => 'MDRRMO Gitagum, Gitagum Misamis Oriental, disaster risk reduction, emergency hotline Gitagum, rescue Gitagum, disaster preparedness, Gitagum weather forecast, typhoon advisory, flood, earthquake, Northern Mindanao',
 
     'address' => [
         'street' => 'Municipal Hall, Poblacion',
@@ -36,6 +36,12 @@ return [
 
     'email' => 'mdrrmcgitagum@gmail.com',
     'facebook' => 'https://www.facebook.com/profile.php?id=100089103559985',
+
+    // Location used for the weather forecast (Gitagum town center).
+    'weather' => [
+        'latitude' => 8.5961,
+        'longitude' => 124.4053,
+    ],
 
     'barangays' => [
         'Burnay', 'Carlos P. Garcia', 'Cogon', 'Gregorio Pelaez', 'Kilangit', 'Matangad',

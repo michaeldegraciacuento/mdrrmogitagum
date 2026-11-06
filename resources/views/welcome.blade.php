@@ -156,6 +156,7 @@
 
             <ul class="hidden items-center gap-8 text-sm font-medium text-stone-600 md:flex">
                 <li><a href="#about" class="transition hover:text-brand-600">About</a></li>
+                <li><a href="#weather" class="transition hover:text-brand-600">Weather</a></li>
                 <li><a href="#services" class="transition hover:text-brand-600">Services</a></li>
                 <li><a href="#preparedness" class="transition hover:text-brand-600">Preparedness</a></li>
                 <li><a href="#hotlines" class="transition hover:text-brand-600">Hotlines</a></li>
@@ -176,6 +177,7 @@
         <div id="mobile-menu" data-nav-menu class="hidden border-t border-stone-100 bg-white md:hidden">
             <ul class="space-y-1 px-4 py-4 text-sm font-medium text-stone-700">
                 <li><a href="#about" class="block rounded-lg px-3 py-2 hover:bg-brand-50 hover:text-brand-700">About</a></li>
+                <li><a href="#weather" class="block rounded-lg px-3 py-2 hover:bg-brand-50 hover:text-brand-700">Weather</a></li>
                 <li><a href="#services" class="block rounded-lg px-3 py-2 hover:bg-brand-50 hover:text-brand-700">Services</a></li>
                 <li><a href="#preparedness" class="block rounded-lg px-3 py-2 hover:bg-brand-50 hover:text-brand-700">Preparedness</a></li>
                 <li><a href="#hotlines" class="block rounded-lg px-3 py-2 hover:bg-brand-50 hover:text-brand-700">Hotlines</a></li>
@@ -249,6 +251,9 @@
                 </div>
             </div>
         </section>
+
+        {{-- Weather forecast --}}
+        @include('partials.weather')
 
         {{-- About --}}
         <section id="about" class="border-y border-stone-100 bg-stone-50/60 py-20" aria-labelledby="about-title">
