@@ -1,0 +1,14 @@
+{
+  "name": "MDRRMO Gitagum",
+  "short_name": "MDRRMO",
+  "description": "Municipal Disaster Risk Reduction and Management Office of Gitagum, Misamis Oriental",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ea580c",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/logo.png", "sizes": "500x500", "type": "image/png" }
+  ]
+}
