@@ -1,8 +1,11 @@
 <?php
 
+use App\Services\WeatherService;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome')->name('home');
+Route::get('/', fn (WeatherService $weather) => view('welcome', [
+    'weather' => $weather->forecast(),
+]))->name('home');
 
 Route::get('/sitemap.xml', function () {
     $lastmod = date('Y-m-d', filemtime(resource_path('views/welcome.blade.php')));
